@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .ap{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: rgb(182, 182, 200);
+        }
+        .six{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #ad{
+            text-align: center;
+            color: greenyellow;
+
+        }
+        #wh{
+            text-align: center;
+        }
+        #food{
+            width: 400px;
+        }
+        #free{
+            width: 150px;
+            height: 50px;
+        }
+        #more{
+            background-color: black;
+            color: white;
+        }
+        .eat{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    </style>
+</head>
+<body>
+    <div class="ap">
+        <section>
+        <img src="../assets/logo.png" alt="">
+       </section>
+    
+    <section>
+        <ul class="six">
+            <li>
+                <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="shop.html">Shop</a>
+            </li>
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+            <li>
+                <a href="Contact.html">Contact Us</a>
+            </li>
+            <li><i class="fa-solid fa-lock"></i></li>
+        </ul>
+    </section>
+    </div>
+
+    <h4 id="ad">About Us</h4>
+    <h2 id="wh">WHY CHOOSE US?</h2>
+    
+    <section class="eat">
+        <img id="food" src="../assets/about/about-img.png" alt="">
+    
+
+    
+        <div>
+            <h2>Best Food In The Country</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Voluptatum excepturi nostrum aliquam voluptates, est maxime <br>
+            eaque perferendis tempore quas praesentium animi! Numquam ipsam <br>
+             repellat quam velit saepe architecto facilis ullam.</p>
+
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Voluptatum excepturi nostrum aliquam voluptates, est maxime <br>
+
+            <button id="free"><i class="fa-solid fa-truck-fast" style="color: #77f953;"></i> Free Delivery</button> <button id="free"><i class="fa-solid fa-dollar-sign" style="color: #66f109;"></i>Easy Payment</button> <button id="free"><i class="fa-regular fa-headset" style="color: #47e901;"></i>24/7 service</button> <br> <br>
+            <button id="more">Learan More</button>
+        </div>
+    </section>
+</body>
+</html>

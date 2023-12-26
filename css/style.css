@@ -1,0 +1,296 @@
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#ab{
+    width: 101%;
+}
+.md{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(182, 182, 200);
+}
+#tr{
+    position: absolute;
+    top: 500px;
+    margin-left: 30px;
+    color: white;
+}
+#su{
+    position: absolute;
+    top: 530px;
+    margin-left: 30px;
+}
+#on{
+    position: absolute;
+    top: 560px;
+    margin-left: 30px;
+    color:rgb(44, 117, 44);
+}
+#sa{
+    position: absolute;
+    top: 590px;
+    margin-left: 30px;
+}
+#im{
+    position: absolute;
+    top: 650px;
+}
+#sh{
+    position: absolute;
+    top: 645px;
+    margin-left: 50px;
+    color: green;
+}
+.fe{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    outline: 1px solid whitesmoke;
+    margin-top: 20px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+
+    
+}
+button{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#fr{
+    background-color: pink;
+}
+#li{
+    background-color: rgb(153, 233, 153);
+}
+#mo{
+    background-color: skyblue;
+}
+#pr{
+    background-color: rgb(168, 203, 216);
+}
+#ha{
+    background-color: rgb(224, 171, 180);
+}
+#rt{
+    background-color: bisque;
+}
+#ts {
+    text-align: center;
+}
+#gn{
+    text-align: center;
+}
+#f1{
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 30px;
+
+    
+}
+.mp{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.mla{
+    border: 1px solid black;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+    
+}
+.b2{
+    margin-top: 30px;
+}
+#re{
+    position:absolute;
+    top: 2180px;
+    left: 560px;
+    color: white;
+    
+}
+#up{
+    position: absolute;
+    top: 2212px;
+    left: 395px;
+    color: white;
+}
+#ex{
+    position: absolute;
+    top: 2270px;
+    left: 515px;
+}
+.two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#b17{
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 90%;
+}
+#b18{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 95%;
+    height: 80%;
+    
+}
+#cr{
+    position: absolute;
+    top: 3350px;
+    left: 110px;
+    color: white;
+}
+#get{
+    position: absolute;
+    top: 3380px;
+    left: 100px;
+    color: white;
+}
+#is{
+    position: absolute;
+    top: 3410px;
+    left: 100px;
+    color: white;
+}
+#ea{
+    position: absolute;
+    top: 3450px;
+    left: 60px;
+}
+#sp{
+    position: absolute;
+    top: 3340px;
+    left: 780px;
+    color: white;
+    
+}
+#dp{
+    position: absolute;
+    top: 3380px;
+    left: 750px;
+    color: white;
+}
+#caro{
+    position: absolute;
+    top: 3406px;
+    left: 750px;
+    color: white;
+}
+#ll{
+    position: absolute;
+    top: 3450px;
+    left: 705px;
+}
+.three{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#bgm{
+    width: 400px;
+    margin-left: 60px;
+}
+#kgf{
+    width: 400px;
+    height: 215px;
+    margin-left: 20px;
+}
+#kkk{
+    width: 400px;
+    height: 215px;
+    margin-left: 20px;
+}
+#le{
+    position: absolute;
+    top: 3715px;
+    left: 100px;
+    color: white;
+}
+#wi{
+    position: absolute;
+    top: 3750px;
+    left: 110px;
+    color: brown;
+}
+#new{
+    position: absolute;
+    top: 3720px;
+    left: 495px;
+    color: white;
+}
+#ng{
+    position: absolute;
+    top: 3750px;
+    left: 496px;
+    color: brown;
+}
+#t{
+    position: absolute;
+    top: 3720px;
+    left: 940px;
+    color: white;
+}
+#nts{
+    position: absolute;
+    top: 3750px;
+    left: 940px;
+    color: brown;
+}
+ .prakash{ 
+    display: flex;
+    background: url(../assets/banner/b14.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    margin-top: 10px;
+    
+}
+#sign{
+    position: absolute;
+    top: 3900px;
+    left: 80px;
+    color: white;
+}
+span{
+    color: yellow;
+}
+#mail{
+    position: absolute;
+    top: 3930px;
+    left: 50px;
+    color: white;
+}
+#me{
+    position: absolute;
+    top: 3950px;
+    margin-left: 1000px;
+}
+#tn{
+    position: absolute;
+    top: 3940px;
+    margin-left: 1150px;
+    background-color: green;
+    color: white;
+}
+#logo{
+    margin-top: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.ten{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
